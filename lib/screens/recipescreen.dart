@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:product_recipes/models/recipes.dart';
 import 'package:product_recipes/services/api.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class RecipeScreen extends StatefulWidget {
+  const RecipeScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => HomeScreenState();
+  State<RecipeScreen> createState() => RecipeScreenState();
 }
 
-class HomeScreenState extends State<HomeScreen> {
+class RecipeScreenState extends State<RecipeScreen> {
   List<Recipe> recipes = [];
   @override
   void initState() {
